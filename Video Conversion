@@ -1,4 +1,4 @@
 
-## Resize the image sequence 
+#Resize the image sequence
 
 ffmpeg –i E:\SLAM\Datasets\Slam-Spark\Dji_0008\spark_%04d.png –vf scale=960x540 .\res\spark_ss_%04d.png
