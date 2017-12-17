@@ -17,4 +17,4 @@
   
 - **Convert an image sequence to a video file**
   
-  ffmpeg -r 30 -s 1280x720 -i example_%04.png -c:v libx264 -pix_fmt yuv420p output.mp4
+  ffmpeg -r 30 -f image2 -s 1280x720 -i example_%04.png -c:v libx264 -pix_fmt yuv420p output.mp4
