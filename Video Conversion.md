@@ -13,7 +13,7 @@
 
 - **Digitize a video file into an image sequence**
 
-  ffmpeg -i D:\Temp\example.mp4 -vf fps = 30 .\res\example_%04d.png
+  ffmpeg -i D:\Temp\example.mp4 -vf fps=30 .\res\example_%04d.png
   
 - **Convert an image sequence to a video file**
   
